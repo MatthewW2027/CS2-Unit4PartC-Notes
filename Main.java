@@ -35,5 +35,20 @@ public class Main {
       seatingChart[3][5] = "Matthew"; 
       System.out.println(seatingChart[3][5]);  
 
+      // Shortcut: INITIALIZER LISTS 
+      // use double curly brackets to set values for a 2D array right away
+      String[][] bingo = {
+         {"!", "A", "11"} ,
+         {"S", "<3", ":"} ,
+         {",", "20", "x"}
+      };
+      // Look at new array 
+      System.out.println(bingo); // no built-in toString 
+      // have to use a loop or access individual items 
+      System.out.println(bingo[0][0]); 
+      System.out.println(bingo[1][1]); 
+      System.out.println(bingo[1][2]); 
+
+
    }
 }
